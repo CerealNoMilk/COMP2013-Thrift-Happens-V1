@@ -1,11 +1,11 @@
 import "./App.css";
-import ItemCard from "./Components/ItemCard";
+import ThriftHappensApp from "./Components/ThriftHappensApp";
 import { products } from "./data/data";
 
 function App() {
   return (
     <>
-      <ItemCard {...products[0]} />
+      <ThriftHappensApp products={products} />
     </>
   );
 }

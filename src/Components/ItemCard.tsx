@@ -1,5 +1,16 @@
 import type { ClothingProduct } from "../data/data";
+import AdjustQuantityCounter from "./AdjustQuantityCounter";
+
+interface ItemCardProps extends ClothingProduct {
+  handleAdjustQuantityCounter: (
+    id: number,
+    delta: number,
+    quantity: number,
+  ) => void;
+}
+
 export default function ItemCard({
+  id,
   name,
   fit,
   category,
@@ -9,18 +20,27 @@ export default function ItemCard({
   price,
   quantity,
   image,
-}: ClothingProduct) {
+  itemQuantity,
+  handleAdjustQuantityCounter,
+}: ItemCardProps) {
   return (
-    <div>
+    <div className="ItemCard">
       <h3>{name}</h3>
       <img src={image} alt="" width="100px" />
-      <p>{fit}</p>
-      <p>{category}</p>
-      <p>{color}</p>
+      <p>Fit: {fit}</p>
+      <p>Category: {category}</p>
+      <p>Color: {color}</p>
       <p>{description}</p>
-      <p>{size}</p>
-      <p>{price}</p>
-      <p>{quantity}</p>
+      <p>Size: {size}</p>
+      <p>Price: {price}$</p>
+      <p>Quantity: {quantity}</p>
+      <AdjustQuantityCounter
+        userQuantity={itemQuantity}
+        quantity={quantity}
+        id={id}
+        handleAdjustQuantityCounter={handleAdjustQuantityCounter}
+      />
+      <button>Add to Cart</button>
     </div>
   );
 }
