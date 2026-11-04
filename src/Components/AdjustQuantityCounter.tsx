@@ -16,7 +16,7 @@ export default function AdjustQuantityCounter({
   handleAdjustQuantityCounter,
 }: AdjustQuantityCounterProps) {
   return (
-    <div>
+    <div className="AdjustQuantityCounter">
       <button onClick={() => handleAdjustQuantityCounter(id, -1, quantity)}>
         {" - "}
       </button>

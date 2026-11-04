@@ -29,7 +29,7 @@ export interface ClothingProduct {
 
 export const products: ClothingProduct[] = [
   {
-    id: 1,
+    id: 0,
     image: "src/assets/images/product-1.png",
     name: "Navy Essential Crew Tee",
     fit: "men",
@@ -42,7 +42,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 2,
+    id: 1,
     image: "src/assets/images/product-2.png",
     name: "Grey Everyday Crew Tee",
     fit: "men",
@@ -55,7 +55,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 3,
+    id: 2,
     image: "src/assets/images/product-3.png",
     name: "Black Classic Crew Tee",
     fit: "men",
@@ -68,7 +68,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 4,
+    id: 3,
     image: "src/assets/images/product-4.png",
     name: "Olive Pocket Tee",
     fit: "men",
@@ -81,7 +81,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 5,
+    id: 4,
     image: "src/assets/images/product-5.png",
     name: "Rose V-Neck Tee",
     fit: "women",
@@ -94,7 +94,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 6,
+    id: 5,
     image: "src/assets/images/product-6.png",
     name: "White V-Neck Tee",
     fit: "women",
@@ -107,7 +107,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 7,
+    id: 6,
     image: "src/assets/images/product-7.png",
     name: "Burgundy V-Neck Tee",
     fit: "women",
@@ -120,7 +120,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 8,
+    id: 7,
     image: "src/assets/images/product-8.png",
     name: "Blue Dinosaur Graphic Tee",
     fit: "kids",
@@ -133,7 +133,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 9,
+    id: 8,
     image: "src/assets/images/product-9.png",
     name: "Pink Heart Graphic Tee",
     fit: "kids",
@@ -146,7 +146,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 10,
+    id: 9,
     image: "src/assets/images/product-10.png",
     name: "Grey Construction Truck Tee",
     fit: "kids",
@@ -159,7 +159,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 11,
+    id: 10,
     image: "src/assets/images/product-11.png",
     name: "Red Plaid Flannel Shirt",
     fit: "men",
@@ -172,7 +172,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 12,
+    id: 11,
     image: "src/assets/images/product-12.png",
     name: "Light Blue Oxford Shirt",
     fit: "men",
@@ -185,7 +185,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 13,
+    id: 12,
     image: "src/assets/images/product-13.png",
     name: "Navy Short-Sleeve Button-Down",
     fit: "men",
@@ -198,7 +198,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 14,
+    id: 13,
     image: "src/assets/images/product-14.png",
     name: "Green Plaid Flannel Shirt",
     fit: "men",
@@ -211,7 +211,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 15,
+    id: 14,
     image: "src/assets/images/product-15.png",
     name: "Cream Floral Button-Down",
     fit: "women",
@@ -224,7 +224,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 16,
+    id: 15,
     image: "src/assets/images/product-16.png",
     name: "Blue Chambray Shirt",
     fit: "women",
@@ -237,7 +237,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 17,
+    id: 16,
     image: "src/assets/images/product-17.png",
     name: "Black and White Striped Blouse",
     fit: "women",
@@ -250,7 +250,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 18,
+    id: 17,
     image: "src/assets/images/product-18.png",
     name: "Blue Plaid School Shirt",
     fit: "kids",
@@ -263,7 +263,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 19,
+    id: 18,
     image: "src/assets/images/product-19.png",
     name: "Pink Plaid School Shirt",
     fit: "kids",
@@ -276,7 +276,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 20,
+    id: 19,
     image: "src/assets/images/product-20.png",
     name: "Light Blue Printed Shirt",
     fit: "kids",
@@ -289,7 +289,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 21,
+    id: 20,
     image: "src/assets/images/product-21.png",
     name: "Black Pullover Hoodie",
     fit: "men",
@@ -302,7 +302,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 22,
+    id: 21,
     image: "src/assets/images/product-22.png",
     name: "Grey Fleece Hoodie",
     fit: "men",
@@ -315,7 +315,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 23,
+    id: 22,
     image: "src/assets/images/product-23.png",
     name: "Navy Pullover Hoodie",
     fit: "men",
@@ -328,7 +328,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 24,
+    id: 23,
     image: "src/assets/images/product-24.png",
     name: "Forest Green Hoodie",
     fit: "men",
@@ -341,7 +341,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 25,
+    id: 24,
     image: "src/assets/images/product-25.png",
     name: "Blush Pink Pullover Hoodie",
     fit: "women",
@@ -354,7 +354,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 26,
+    id: 25,
     image: "src/assets/images/product-26.png",
     name: "Lavender Pullover Hoodie",
     fit: "women",
@@ -367,7 +367,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 27,
+    id: 26,
     image: "src/assets/images/product-27.png",
     name: "Cream Pullover Hoodie",
     fit: "women",
@@ -380,7 +380,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 28,
+    id: 27,
     image: "src/assets/images/product-28.png",
     name: "Blue Dinosaur Hoodie",
     fit: "kids",
@@ -393,7 +393,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 29,
+    id: 28,
     image: "src/assets/images/product-29.png",
     name: "Pink Heart Hoodie",
     fit: "kids",
@@ -406,7 +406,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 30,
+    id: 29,
     image: "src/assets/images/product-30.png",
     name: "Green Tractor Hoodie",
     fit: "kids",
@@ -419,7 +419,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 31,
+    id: 30,
     image: "src/assets/images/product-31.png",
     name: "Blue Straight-Leg Jeans",
     fit: "men",
@@ -432,7 +432,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 32,
+    id: 31,
     image: "src/assets/images/product-32.png",
     name: "Black Straight-Leg Pants",
     fit: "men",
@@ -445,7 +445,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 33,
+    id: 32,
     image: "src/assets/images/product-33.png",
     name: "Tan Chino Pants",
     fit: "men",
@@ -458,7 +458,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 34,
+    id: 33,
     image: "src/assets/images/product-34.png",
     name: "Olive Cargo Pants",
     fit: "men",
@@ -471,7 +471,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 35,
+    id: 34,
     image: "src/assets/images/product-35.png",
     name: "Classic Blue Denim Jeans",
     fit: "women",
@@ -484,7 +484,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 36,
+    id: 35,
     image: "src/assets/images/product-36.png",
     name: "Black Wide-Leg Trousers",
     fit: "women",
@@ -497,7 +497,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 37,
+    id: 36,
     image: "src/assets/images/product-37.png",
     name: "Cream Wide-Leg Trousers",
     fit: "women",
@@ -510,7 +510,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 38,
+    id: 37,
     image: "src/assets/images/product-38.png",
     name: "Blue Kids Jeans",
     fit: "kids",
@@ -523,7 +523,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 39,
+    id: 38,
     image: "src/assets/images/product-39.png",
     name: "Pink Pull-On Leggings",
     fit: "kids",
@@ -536,7 +536,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 40,
+    id: 39,
     image: "src/assets/images/product-40.png",
     name: "Grey Kids Joggers",
     fit: "kids",
@@ -549,7 +549,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 41,
+    id: 40,
     image: "src/assets/images/product-41.png",
     name: "Navy Drawstring Shorts",
     fit: "men",
@@ -562,7 +562,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 42,
+    id: 41,
     image: "src/assets/images/product-42.png",
     name: "Tan Casual Shorts",
     fit: "men",
@@ -575,7 +575,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 43,
+    id: 42,
     image: "src/assets/images/product-43.png",
     name: "Black Cargo Shorts",
     fit: "men",
@@ -588,7 +588,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 44,
+    id: 43,
     image: "src/assets/images/product-44.png",
     name: "Olive Cargo Shorts",
     fit: "men",
@@ -601,7 +601,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 45,
+    id: 44,
     image: "src/assets/images/product-45.png",
     name: "Blue Denim Shorts",
     fit: "women",
@@ -614,7 +614,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 46,
+    id: 45,
     image: "src/assets/images/product-46.png",
     name: "Black Tie-Waist Shorts",
     fit: "women",
@@ -627,7 +627,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 47,
+    id: 46,
     image: "src/assets/images/product-47.png",
     name: "Coral Drawstring Shorts",
     fit: "women",
@@ -640,7 +640,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 48,
+    id: 47,
     image: "src/assets/images/product-48.png",
     name: "Navy Athletic Shorts",
     fit: "kids",
@@ -653,7 +653,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 49,
+    id: 48,
     image: "src/assets/images/product-49.png",
     name: "Pink Drawstring Shorts",
     fit: "kids",
@@ -666,7 +666,7 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
   {
-    id: 50,
+    id: 49,
     image: "src/assets/images/product-50.png",
     name: "Blue Denim Shorts",
     fit: "kids",

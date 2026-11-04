@@ -184,6 +184,10 @@
 }
 
 .ItemCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   font-size: 0.75rem;
   width: 150px;
   line-height: 1rem;
@@ -194,8 +198,52 @@
 }
 
 .ItemsContainer {
-  width: 75%;
+  width: 70%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.CheckoutContainer {
+  width: 200px;
+  margin-left: 30px;
+}
+
+.CheckoutCard {
+  width: 90%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 0.5rem;
+  border: 1px green solid;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.CheckoutCardTitle {
+  text-align: left;
+  line-height: 0.5rem;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.CheckoutCardTitle h4 {
+  margin-top: 0;
+}
+
+.CheckoutCardBody {
+  line-height: 0.75rem;
+}
+
+.MainAppBody {
+  display: flex;
+}
+
+.AdjustQuantityCounter {
+  display: flex;
+  justify-content: space-evenly;
 }
