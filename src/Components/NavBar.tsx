@@ -1,7 +1,7 @@
 export default function NavBar() {
   return (
     <div className="NavBar">
-      <h1>Thrift Happens</h1>
+      <img src="src\assets\images\logo.png" alt="" width="150px" />
     </div>
   );
 }

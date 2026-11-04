@@ -247,3 +247,9 @@
   display: flex;
   justify-content: space-evenly;
 }
+
+.NavBar {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}

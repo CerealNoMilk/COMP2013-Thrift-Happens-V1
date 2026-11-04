@@ -42,8 +42,12 @@ export default function ItemCard({
       <p>Color: {color}</p>
       <p>{description}</p>
       <p>Size: {size}</p>
-      <p>Price: {price}$</p>
-      <p>Quantity: {remainQuantity}</p>
+      <p>
+        <b>Price:</b> {price.toFixed(2)}$
+      </p>
+      <p>
+        <b>Quantity:</b> {remainQuantity}
+      </p>
       <br />
       <div>
         <AdjustQuantityCounter
