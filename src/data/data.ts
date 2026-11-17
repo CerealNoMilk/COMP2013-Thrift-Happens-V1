@@ -679,31 +679,3 @@ export const products: ClothingProduct[] = [
     itemQuantity: 0,
   },
 ];
-
-/** Return the complete product catalog. */
-export function getAllProducts(): ClothingProduct[] {
-  return products;
-}
-
-/** Find one product using its ID. */
-export function getProductById(id: number): ClothingProduct | undefined {
-  return products.find((product) => product.id === id);
-}
-
-/** Filter products by fit, such as "men", "women", or "kids". */
-export function getProductsByFit(fit: Fit): ClothingProduct[] {
-  return products.filter((product) => product.fit === fit);
-}
-
-/** Filter products by category, such as "hoodie" or "shorts". */
-export function getProductsByCategory(
-  category: ClothingCategory,
-): ClothingProduct[] {
-  return products.filter((product) => product.category === category);
-}
-
-// Example usage:
-// getAllProducts();
-// getProductById(10);
-// getProductsByFit("women");
-// getProductsByCategory("t-shirt");

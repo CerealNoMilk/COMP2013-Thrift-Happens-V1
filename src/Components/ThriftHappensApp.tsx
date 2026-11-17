@@ -126,13 +126,15 @@ export default function ThriftHappensApp({ products }: ThriftHappensAppProps) {
 
   function handleRemoveFromCheckout(id: number) {
     setCheckoutItems((prevItems) => prevItems.filter((item) => item.id !== id));
-    setItemsQuantity((prevItems) =>
-      prevItems.map((item) =>
+    const originalProduct = products.find((prod) => prod.id === id);
+    if (!originalProduct) return;
+    setItemsQuantity((prevItems) => {
+      return prevItems.map((item) =>
         item.id === id
-          ? { ...item, remainQuantity: products[id].quantity }
+          ? { ...item, remainQuantity: originalProduct.quantity }
           : { ...item },
-      ),
-    );
+      );
+    });
   }
 
   function handleEmptyCheckout() {
