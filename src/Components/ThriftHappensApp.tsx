@@ -138,10 +138,11 @@ export default function ThriftHappensApp({ products }: ThriftHappensAppProps) {
   }
 
   function handleEmptyCheckout() {
-    setItemsQuantity((prevItems) =>
-      prevItems.map((item) => ({
-        ...item,
-        remainQuantity: products[item.id].quantity,
+    setItemsQuantity(
+      products.map((prod) => ({
+        id: prod.id,
+        userQuantity: 0,
+        remainQuantity: prod.quantity,
       })),
     );
     setCheckoutItems([]);
