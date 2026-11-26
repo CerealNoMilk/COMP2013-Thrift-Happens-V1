@@ -29,9 +29,13 @@ for Mongo
 10. Create a database named ThriftHappens and a Collection named clothesItems
 11. Create a collection named clothesItems.
 
-make the .Env file: 12. Open backend/.env and enter your own connection details:
+make the .Env file:
 
-Run the BackEnd 13. do:
+12. Open backend/.env and enter your own connection details:
+
+Run the BackEnd
+
+13. do:
 
 cd backend
 npm install
