@@ -19,7 +19,15 @@ Initial SetUp
 3. Clone your fork to your computer.
 4. Open the project in VS Code.
 
-for Mongo: 5. Create a MongoDB Atlas cluster or use an existing cluster. 6. Create a database user with admin access to ThriftHappens. 7. Add 0.0.0.0 IP address under Network Access. 8. Copy your MongoDB connection string. 9. Open MongoDB Compass and connect using the connection string. 10. Create a database named ThriftHappens and a Collection named clothesItems 11. Create a collection named clothesItems.
+for Mongo
+
+5.  Create a MongoDB Atlas cluster or use an existing cluster.
+6.  Create a database user with admin access to ThriftHappens.
+7.  Add 0.0.0.0 IP address under Network Access.
+8.  Copy your MongoDB connection string.
+9.  Open MongoDB Compass and connect using the connection string.
+10. Create a database named ThriftHappens and a Collection named clothesItems
+11. Create a collection named clothesItems.
 
 make the .Env file: 12. Open backend/.env and enter your own connection details:
 
@@ -29,7 +37,7 @@ cd backend
 npm install
 npm run dev
 
-it should say:
+it will(should) say:
 Connected to DB
 Server is listening on port 3000
 
